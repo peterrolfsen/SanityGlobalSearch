@@ -50,3 +50,4 @@ npm run export
 ```
 # SanitySearchTutorial
 # SanityGlobalSearch
+# SanityGlobalSearch
