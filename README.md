@@ -1,53 +1,15 @@
-# Blogging with Sanity and Next.js
+A tutorial for creating a global search with Sanity, next.js, react and typescript.
 
-[Read the tutorial](https://www.sanity.io/blog/build-your-own-blog-with-sanity-and-next-js?utm_source=github&github_campaing=rbt)
+check out these medium articles for indepht explanations.
 
-## Get started
+Easy global search
+https://medium.com/p/c4f2c7ff1a1f
 
-```sh
-# Install the Sanity command line interface
-~/
-> npm i -g @sanity/cli
+Advances global search
+https://medium.com/@peterrolfsen/advanced-deep-global-search-with-sanity-next-js-react-4a28ac7815eb
 
-# Initiate your own project in the studio folder
-~/this-blog/studio
-> sanity init
+Google like search results
+https://medium.com/@peterrolfsen/mimic-googles-user-friendly-search-results-with-sanity-react-and-next-js-623e0f181117
 
-# Add a CORS-origin rule to allow the frontend to request data
-~/this-blog/studio
-> sanity cors add http://localhost:3000 --no-credentials
-
-# Insert the projectId and dataset name from Sanity in client.js
-~/this-blog/web
-> nano client.js
-
-# Install frontend dependencies
-~/this-blog/web
-> npm install
-
-# Run Next.js in development mode
-~/this-blog/web
-> npm run dev
-```
-
-## Deploy on vercel
-
-```sh
-~/this-blog/web
-> npm i -g vercel
-> vercel login
-> vercel
-```
-
-## Deploy as a static site on Netlify
-
-[Read the tutorial](https://www.sanity.io/blog/tutorial-host-your-sanity-based-next-js-project-on-netlify?utm_source=github&utm_campaign=netlifyexport)
-
-```sh
-~/this-blog/web
-npm run export
-# exports your site as static files in /out
-```
-# SanitySearchTutorial
-# SanityGlobalSearch
-# SanityGlobalSearch
+Pagination
+https://medium.com/@peterrolfsen/pagination-load-more-button-in-groq-search-with-sanity-and-react-to-improve-performance-c5b04e7c359c
