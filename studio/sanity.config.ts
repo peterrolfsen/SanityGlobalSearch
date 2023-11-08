@@ -7,7 +7,7 @@ export default defineConfig({
   name: 'default',
   title: 'Tutorial',
 
-  projectId: 'v9re9945',
+  projectId: 'YOUR_PROJECT_ID',
   dataset: 'production',
 
   plugins: [deskTool(), visionTool()],
